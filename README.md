@@ -23,6 +23,10 @@ bash
 ## Capturas de pantalla
 ![entrada de datos] (tarea1.png)
 ![Resultados] (tarea2.png)
+
+## Explicación de los arreglos utilizados
+
+El programa usa dos arreglos unidimensionales que trabajan en *paralelo*:
 - string nombres[] — almacena el nombre de cada estudiante.
 - float notas[] — almacena la calificación correspondiente.
 
