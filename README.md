@@ -21,3 +21,14 @@ bash
 (En Windows: calificaciones.exe)
 
 ## Capturas de pantalla
+[Entrada de datos](tarea1.png)
+[Resultados](tarea2.png)
+
+## Explicación de los arreglos utilizados
+
+El programa usa dos arreglos unidimensionales que trabajan en *paralelo*:
+
+- string nombres[] — almacena el nombre de cada estudiante.
+- float notas[] — almacena la calificación correspondiente.
+
+Ambos arreglos comparten el mismo tamaño y el mismo índice: la posición i de nombres siempre corresponde a la posición i de notas. Por ejemplo, nombres[3] y notas[3] pertenecen al mismo estudiante. Esta relación por índice es lo que se conoce como *paralelismo de arreglos*, y es la técnica que permite recorrer ambos arreglos con un mismo ciclo for para llenar, mostrar, comparar y calcular estadísticas sin perder la relación entre nombre y nota.
