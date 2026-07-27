@@ -21,13 +21,8 @@ bash
 (En Windows: calificaciones.exe)
 
 ## Capturas de pantalla
-[Entrada de datos](tarea1.png)
-[Resultados](tarea2.png)
-
-## Explicación de los arreglos utilizados
-
-El programa usa dos arreglos unidimensionales que trabajan en *paralelo*:
-
+![entrada de datos] (tarea1.png)
+![Resultados] (tarea2.png)
 - string nombres[] — almacena el nombre de cada estudiante.
 - float notas[] — almacena la calificación correspondiente.
 
