@@ -21,8 +21,8 @@ bash
 (En Windows: calificaciones.exe)
 
 ## Capturas de pantalla
-![entrada de datos] (tarea%201.png)
-![Resultados] (tarea%202.png)
+![entrada de datos](tarea%201.png)
+![Resultados](tarea%202.png)
 
 ## Explicación de los arreglos utilizados
 
